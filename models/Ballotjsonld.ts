@@ -23,10 +23,6 @@ export class Ballotjsonld {
     */
     'uuid'?: string;
     /**
-    * Internal, incrementing numerical id, unused by ApiPlatform but used in tallying to ignore old|stale|overriden ballots by fetching the highest id, since ballots are immutable and new submissions after opinion changes create new ballots.
-    */
-    'id'?: number;
-    /**
     * The Majority Judgment Poll Proposal the author is giving a grade to.
     */
     'proposal'?: string;
